@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WorkfoceManagement.Application\WorkfoceManagement.Application.csproj" />
+    <ProjectReference Include="..\WorkfoceManagement.Infrastructure\WorkfoceManagement.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
